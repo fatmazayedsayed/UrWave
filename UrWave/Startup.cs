@@ -1,3 +1,5 @@
+using UrWave.SiteHelper;
+
 namespace UrWave
 {
     public class Startup
@@ -34,6 +36,7 @@ namespace UrWave
                 .AddWebsite()
                 .AddDeliveryApi()
                 .AddComposers()
+                .AddCustomServices()
                 .Build();
         }
 
