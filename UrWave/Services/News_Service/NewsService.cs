@@ -12,13 +12,13 @@ namespace UrWave.Services.News_Service
         }
         public async Task<BaseApiResponse<IEnumerable<NewsDto>>?> GetAll()
         {
-            var Newss = await NewsRepository.GetAll();
+            var data = await NewsRepository.GetAll();
             return new BaseApiResponse<IEnumerable<NewsDto>>()
             {
-                Result = Newss,
+                Result = data,
                 PaginationInfo = new PaginationInfoDto()
                 {
-                    TotalCount = Newss != null ? Newss.Count() : 0
+                    TotalCount = data != null ? data.Count() : 0
                 }
             };
         }

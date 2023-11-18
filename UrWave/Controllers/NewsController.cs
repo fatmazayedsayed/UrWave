@@ -15,16 +15,15 @@ namespace UrWave.Controllers
         {
             this.logger = logger;
             this.newsService = newsService;
-
         }
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<IActionResult> GetNews()
         {
             logger.LogInformation("Getting all GetNews");
-            var auctions = await newsService.GetAll();
+            var data = await newsService.GetAll();
             logger.LogInformation("Sucessfully retrieved all news");
-            return Ok(auctions);
+            return Ok(data);
         }
     }
 }
