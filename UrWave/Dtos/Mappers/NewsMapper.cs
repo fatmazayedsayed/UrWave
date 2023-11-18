@@ -1,4 +1,5 @@
 ﻿using Umbraco.Cms.Web.Common.PublishedModels;
+using UrWave.Model.Dtos;
 
 namespace UrWave.Dtos.Mappers
 {

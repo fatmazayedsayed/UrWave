@@ -1,4 +1,5 @@
 ﻿using UrWave.Dtos;
+using UrWave.Model.Dtos;
 
 namespace UrWave.Services.News_Service
 {

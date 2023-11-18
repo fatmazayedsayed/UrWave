@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrWave", "UrWave\UrWave.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrWave_Web", "UrWave_Web\UrWave_Web.csproj", "{098F771C-4DAD-49B8-AAEE-0CF6060C371B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrWave.Model", "UrWave.Model\UrWave.Model.csproj", "{CFFAC643-45CB-4602-9683-8A071DF1E6FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +23,15 @@ Global
 		{098F771C-4DAD-49B8-AAEE-0CF6060C371B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{098F771C-4DAD-49B8-AAEE-0CF6060C371B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{098F771C-4DAD-49B8-AAEE-0CF6060C371B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFFAC643-45CB-4602-9683-8A071DF1E6FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFFAC643-45CB-4602-9683-8A071DF1E6FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFFAC643-45CB-4602-9683-8A071DF1E6FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFFAC643-45CB-4602-9683-8A071DF1E6FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDAB7A6C-8268-446B-8B73-D3E06412C7F5}
 	EndGlobalSection
 EndGlobal

@@ -2,6 +2,7 @@
 using Umbraco.Cms.Web.Common.PublishedModels;
 using UrWave.Dtos;
 using UrWave.Dtos.Mappers;
+using UrWave.Model.Dtos;
 using UrWave.SiteHelper;
 
 namespace UrWave.Repository.News_Repository

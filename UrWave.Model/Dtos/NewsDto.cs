@@ -1,4 +1,4 @@
-﻿namespace UrWave.Dtos
+﻿namespace UrWave.Model.Dtos
 {
     public class NewsDto
     {
