@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using UrWave.Model.APIResponse;
 using UrWave.Model.Dtos;
 using UrWave_Web.WebHelper;
 using static UrWave.Model.Dtos.Response;
@@ -16,7 +17,7 @@ namespace UrWave_Web.Controllers
                 using (var response = await httpClient.GetAsync(WebAPICall.GetAPICall(APIEnum.news)))
                 {
                     string apiResponse = await response.Content.ReadAsStringAsync();
-                    newsList = (JsonConvert.DeserializeObject<Root<NewsDto>>(apiResponse)).result;
+                    newsList = (JsonConvert.DeserializeObject<BaseApiResponse<List<NewsDto?>>>(apiResponse)).Result  ;
                 }
             }
             return View(newsList);

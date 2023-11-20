@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrWave", "UrWave\UrWave.csproj", "{2F3E2356-0578-4EFC-81FC-C4EF886ACA70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrWave_Web", "UrWave_Web\UrWave_Web.csproj", "{098F771C-4DAD-49B8-AAEE-0CF6060C371B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrWave.Web", "UrWave_Web\UrWave.Web.csproj", "{098F771C-4DAD-49B8-AAEE-0CF6060C371B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrWave.Model", "UrWave.Model\UrWave.Model.csproj", "{CFFAC643-45CB-4602-9683-8A071DF1E6FA}"
 EndProject

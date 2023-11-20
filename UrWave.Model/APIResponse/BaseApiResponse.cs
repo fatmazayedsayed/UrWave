@@ -1,10 +1,10 @@
-﻿namespace UrWave.Dtos
+﻿namespace UrWave.Model.APIResponse
 {
     public class BaseApiResponse<T>
     {
-        public ResponseStatus? Status { get; set; } = null;
-        public T? Result { get; set; }
-        public PaginationInfoDto? PaginationInfo { get; set; } = null;
+        public ResponseStatus Status { get; set; } = null;
+        public T Result { get; set; }
+        public PaginationInfoDto PaginationInfo { get; set; } = null;
     }
     public class ResponseStatus
     {

@@ -10,8 +10,8 @@ namespace UrWave.Dtos.Mappers
             var NewsDetails = new NewsDto
             {
                 Id = News.Id,
-                News_Description = News.News_Description,
-                News_Name = News.News_Name,
+                Description = News.News_Description,
+                Name = News.News_Name,
             };
             return NewsDetails;
         }
