@@ -3,8 +3,7 @@ using Newtonsoft.Json;
 using UrWave.Model.APIResponse;
 using UrWave.Model.Dtos;
 using UrWave_Web.WebHelper;
-using static UrWave.Model.Dtos.Response;
-
+ 
 namespace UrWave_Web.Controllers
 {
     public class NewsController : Controller

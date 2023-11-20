@@ -44,7 +44,6 @@
   <ItemGroup>
     <Compile Include="APIResponse\BaseApiResponse.cs" />
     <Compile Include="Dtos\NewsDto.cs" />
-    <Compile Include="Dtos\Response.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
