@@ -9,8 +9,8 @@ namespace UrWave.SiteHelper
         {
             builder.Services.AddSingleton<ISiteService, SiteService>();
 
-            builder.Services.AddScoped<INewsRepository, NewsRepository>();
-            builder.Services.AddScoped<INewsService, NewsService>();
+            //builder.Services.AddScoped<INewsRepository, NewsRepository>();
+            //builder.Services.AddScoped<INewsService, NewsService>();
 
             return builder;
 
